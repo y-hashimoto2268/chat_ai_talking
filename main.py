@@ -153,8 +153,8 @@ def main():
 
         # LLMの返答を Streaming 表示する
         with st.chat_message('ai'):
-            # response = st.write_stream(chain.stream({"user_input": user_input}))
-            response = st.write_stream(chain({"user_input": user_input}))
+            response = st.write_stream(chain.stream({"user_input": user_input}))
+            # response = st.write_stream(chain({"user_input": user_input}))
 
         # チャット履歴に追加
         st.session_state.message_history.append(("user", user_input))
