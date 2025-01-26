@@ -103,3 +103,4 @@ langchain_text_splitters
 youtube-transcript-api
 pytube
 chatAnthropic
+langchain_anthropic
