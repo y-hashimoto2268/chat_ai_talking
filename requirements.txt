@@ -98,3 +98,8 @@ uritemplate==4.1.1
 urllib3==2.3.0
 watchdog==6.0.0
 yarl==1.18.3
+beautifulSoup4
+langchain_text_splitters
+youtube-transcript-api
+pytube
+chatAnthropic
