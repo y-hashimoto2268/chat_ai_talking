@@ -103,3 +103,4 @@ langchain_text_splitters
 youtube-transcript-api
 pytube
 langchain_anthropic
+beautifulSoup4
